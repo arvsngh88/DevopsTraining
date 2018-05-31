@@ -37,7 +37,7 @@ pipeline {
     			artifacts: [
         		[artifactId: 'CounterWebApp',
          		classifier: '',
-         		file: 'target/CounterWebApp.war',
+         		file: 'CounterWebApp/target/CounterWebApp.war',
          		type: 'war']
     			]
  		)
