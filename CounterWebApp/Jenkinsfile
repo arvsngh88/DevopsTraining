@@ -12,9 +12,12 @@ pipeline {
     }
     stages {
         stage ('Checkout'){
-            steps {
-            checkout scm
-			
+            steps 
+            {
+                git (
+                    url: 'https://github.com/arvsngh88/DevopsTraining.git',
+                    credentialsId: 'd00ce64d-46a4-4d16-b175-6b53b0608566'
+                )
             }
    	    }
         stage('Build') {
