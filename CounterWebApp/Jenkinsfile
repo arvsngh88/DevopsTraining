@@ -33,7 +33,7 @@ pipeline {
     			groupId: 'com.mkyong',
     			version: '1.0-SNAPSHOT',
     			repository: 'maven-snapshots',
-    			credentialsId: 'Mum_Nexus_server',
+    			credentialsId: 'a4dfc8c4-c551-4266-8652-594cd0ee6ad3',
     			artifacts: [
         		[artifactId: 'CounterWebApp',
          		classifier: '',
